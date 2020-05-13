@@ -1,0 +1,106 @@
+header {
+    background: linear-gradient(to top, white, transparent 30%),
+                radial-gradient(ellipse at top center, #ddd, transparent 50%, white),
+                white url(http://placeimg.com/1000/480/nature) no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Spectral SC', serif;
+}
+
+html,
+main,
+body {
+    margin: 0;
+}
+
+body {
+    font-family: 'Spectral', serif;
+}
+
+main {
+    background-color: black;
+    background-image: linear-gradient(to top, black, white);
+    padding-top: 3em;
+    overflow-y: hidden;
+}
+
+
+.small-caps {
+    font-family: 'Spectral SC', serif;
+}
+
+.centered-content,
+.wrapper {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 2em;
+    margin-bottom: 3em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #ddd;
+}
+
+.color-box-1 {
+    background: linear-gradient(RGBA(128, 128, 128, .8),RGBA(128, 128, 128, .8)),
+                gray url(http://placeimg.com/640/480/arch/grayscale) no-repeat;
+    background-size: cover;
+}
+
+.color-box-2 {
+    background: linear-gradient(to right, white, transparent),
+                linear-gradient(to left, RGB(136, 205, 122), transparent),
+                RGB(136, 205, 122) url(images/placeimg_640_680_animals.jpg) no-repeat;
+    background-size: cover;
+}
+
+.color-box-3 {
+    background: radial-gradient(circle at right, transparent, transparent 90%, #5149DA 100%),
+                radial-gradient(circle at left, transparent, #5149DA 90%),
+                url(images/placeimg_640_480_people.jpg) no-repeat;
+    background-size: cover;
+    color: #EEE;
+}
+
+.color-box-4 {
+    background: linear-gradient(to top, transparent, black 40%, black 80%, rgb(255, 187, 0) 99%),
+                url(images/placeimg_640_480_arch.jpg) bottom no-repeat;
+    color: white;
+}
+
+.main-footer {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to left, black 35%, transparent, black 65%),
+                black url(http://placeimg.com/300/300/tech) center/40% no-repeat;
+}
+
+@media (min-width: 550px) {
+    .centered-content,
+    .wrapper {
+        width: 80%;
+        max-width: 40em;
+    }
+    .main-footer {
+        background: linear-gradient(to left, transparent 0%, black 20%, black 80%, transparent 100%),
+                    url(images/placeimg_300_300_people.jpg) left/30% no-repeat,
+                  black url(http://placeimg.com/300/300/tech) right/30% no-repeat;
+    }
+}
