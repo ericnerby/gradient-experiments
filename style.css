@@ -83,6 +83,30 @@ main {
     color: white;
 }
 
+.beach-ball {
+    width: 60%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: none;
+    color: white;
+    position: relative;
+    background: radial-gradient(circle at center, green 0% 5%, transparent 5% 100%),
+                conic-gradient(red 0deg 60deg, blue 60deg 120deg, yellow 120deg 180deg, orange 180deg 240deg, green 240deg 300deg, white 300deg 360deg);
+}
+
+.beach-ball h2 {
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+    left: 5%;
+    background-color: RGBA(128, 128, 128, .6);
+    border-radius: 10px;
+    align-self: center;
+}
+
 .main-footer {
     text-align: center;
     color: white;
